@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Mobile Controller</title>
+		<meta name="viewport" id="viewport" content="width=device-width, user-scalable=yes,initial-scale=1.0,maximum-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="controller.css"/>
+		<script type = "text/javascript" src = "jquery/jquery1.4.2.js"></script>
+		<script type = "text/javascript" src = "jquery/jquery-impromptu.3.1.min.js"></script>
+		<script type="text/javascript">
+		function setBack(id) {
+			if(document.getElementById(id).className == 'pause') {
+				document.getElementById(id).className = 'play';
+				sendPHP('pause');
+			}
+			else {
+				document.getElementById(id).className = 'pause';
+				sendPHP('play');
+			}
+        }
+		function sendPHP (command) {
+			$.post("PhoneTalk.php", {command : command},
+			function(data) {
+			});
+		}
+		function startPrompt () {
+			var reply = prompt("Please enter the code given on admin page","");
+			$.post("phonecheck.php", {code : reply},
+			function (data) {
+				if (data == 'false') {
+					alert('You entered an incorrect code!');
+					window.location.reload();
+				}
+			});
+		}
+     </script>
+	</head>
+	<body onload = "startPrompt();">			
+		<span style="display: inline;">
+		<div id = "reverse" class = "button" onmousedown="sendPHP('reverse')" style="cursor:pointer;"></div>
+		<div id = "forward" class = "button" onmousedown="sendPHP('forward')" style="cursor:pointer;"></div>
+		</span>
+		<div id = "play" class = "button" onmousedown="setBack(this.id);" style="cursor:pointer;"></div>
+	</body>
+</html>

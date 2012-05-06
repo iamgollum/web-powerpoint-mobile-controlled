@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "6">
+  <title>Slide 6</title>
+  <content>
+    <topic> Admin Page </topic>
+    <list> 
+        <item>Provides control over the slides</item>
+        <item>Stores multiple presentations</item>
+        <item>When slides are loaded, they can be reordered using a drag and drop feature</item>
+        <item>Slides can also be uploaded</item>
+		<item>'X' used for deleting slides, click 'Update presentation to avoid accidental deletion'</item>
+		
+    </list>
+	<date>05/06/11</date>
+  </content>
+</slide>

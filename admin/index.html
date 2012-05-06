@@ -1,0 +1,106 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type = "text/javascript" src = "jquery/jquery1.5.js"></script> 
+<script type = "text/javascript" src = "admin.js"></script> 
+
+<link rel="stylesheet" href="jquery.ui.all.css">
+<link type = "text/css" rel='stylesheet' href = "ui-lightness/jquery-ui-1.8.12.custom.css" />
+<link type = "text/css" rel='stylesheet' href = "admin.css" />
+<link type = "text/css" rel='stylesheet' href = "../slides/css/slideTemplate.css" />
+<!-- <link href="style/style.css" rel="stylesheet" type="text/css" /> -->
+
+<script src="../jquery/jquery.ui.core.min.js"></script>
+<script src="../jquery/jquery.ui.widget.min.js"></script>
+<script src="../jquery/jquery.ui.mouse.min.js"></script>
+<script src="../jquery/jquery.ui.sortable.min.js"></script>
+
+	<script>
+	$(function() {
+		$( "#sortable" ).sortable({
+			placeholder: "ui-state-highlight"
+		});
+		$( "#sortable" ).disableSelection();
+	});
+	</script>
+<title>Presentation Administration</title>
+</head>
+ 
+<body onload=" checkSession(); updateClock(); setInterval('updateClock()', 1000 ); loadPres();">
+<!-- <audio src="audio/intro.ogg" autoplay=true></audio> -->
+<div id = "wrapper">
+    <div id= "header">
+        <a class="home" href="#">
+			<img id = "logo" src="../images/logo.png" alt="Mobile Visualization 1.0" width="563" height="77" onClick= "location.href='../index.php'"/>
+		</a>
+        <span id = "rightHead"> 
+        
+            <div id = "nav" >
+                <ul>
+                  <li><a id = "home" > Welcome Administrator</a></li>
+                  <li><a id = "login" onClick = "logout();" > Logout</a></li>
+                </ul>    
+            </div>
+              
+            <!--<div id = "search">  
+                <img id = "bgnSearch" src="../images/search_beg.png" width="27" height="25" />                
+                <input id = "textField" type="text"  name = "pptfilter" value = "Search By Slide Title" />
+                <input id = "submit" type = "button"/>   
+            </div>-->
+        </span>
+    </div>
+    <div id = "content">
+        <div id = "contentHead">
+            <select name="presentations" id ="presentations">
+                <option id = "start" value="start">-Presentations-</option>
+                <!--<option value="pres2">Google Security</option>
+                <option value="pres3">Data.gov Overview</option>
+                <option value="pres4">Battlefield 3</option>
+                <option value="pres5">Starbucks Promotional</option>
+                <option id = "end" value="end">-End of List-</option>-->
+            </select>
+            <button id = "loadP" type="button" onclick="loadSlides();">Load Presentation</button>
+        </div>
+        <div id = "slideDisplay">
+            <ul id="sortable">
+                <!--<li id = "slide1" class="ui-state-default" onclick = "preview(1)">Slide 1 <a class = "delSlide" onclick = "deleteSlide(1)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide2" class="ui-state-default" onclick = "preview(2)">Slide 2 <a class = "delSlide" onclick = "deleteSlide(2)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide3" class="ui-state-default" onclick = "preview(3)">Slide 3 <a class = "delSlide" onclick = "deleteSlide(3)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide4" class="ui-state-default" onclick = "preview(4)">Slide 4 <a class = "delSlide" onclick = "deleteSlide(4)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide5" class="ui-state-default" onclick = "preview(5)">Slide 5 <a class = "delSlide" onclick = "deleteSlide(5)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide6" class="ui-state-default" onclick = "preview(6)">Slide 6 <a class = "delSlide" onclick = "deleteSlide(6)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide7" class="ui-state-default" onclick = "preview(7)">Slide 7 <a class = "delSlide" onclick = "deleteSlide(7)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide8" class="ui-state-default" onclick = "preview(8)">Slide 8 <a class = "delSlide" onclick = "deleteSlide(8)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide9" class="ui-state-default" onclick = "preview(9)">Slide 9 <a class = "delSlide" onclick = "deleteSlide(9)"> X </a><span class ="marked" > >> </span></li>
+                <li id = "slide10" class="ui-state-default" onclick = "preview(10)">Slide 10 <a class = "delSlide" onclick = "deleteSlide(10)"> X </a><span class ="marked" > >> </span></li>-->
+            </ul>
+        </div>
+        <div id = "slideVisual"> 
+        <!-- slide contents -->
+        </div>
+        <div id = "update">
+            <button type="button" onclick="updateSlides();">Update Presentation</button>        
+        </div>
+            <form id = "upload" action="upload.php" method="post" enctype="multipart/form-data" target="upload_target" onsubmit="startUpload();" >
+                 <p id="f1_upload_process">LOADING SLIDE ... </p>
+                 <p id="f1_upload_form" align="left"><br/>
+                     <label>Slide:  
+                          <input name="myfile" type="file" size="30" />
+                     </label>
+                     <label>
+                         <input type="submit" name="submitBtn" class="sbtn" value="Upload" />
+                     </label>
+                 </p>
+                 
+                 <iframe id="upload_target" name="upload_target" src="#" style="width:0;height:0;border:0px solid #fff;"></iframe>
+             </form>
+    </div>
+    <div id = "footer">
+        <span id="copyright">Copyright &copy; 2011 WebSys - All Rights Reserved </span>
+        <span id="clock">&nbsp;</span> 
+    </div>
+</div>    
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "3">
+  <title>Slide 3</title>
+  <content>
+    <topic> The Design </topic>
+    <list> 
+        <item>Two Modes: Web and Full Screen</item>
+        <item>Web Mode has more user interactivity</item>
+        <item>Created tabs for cycling through slides, jump to feature</item>
+        <item>CSS scaling used to create full screen mode</item>        
+    </list>
+	<date>05/06/11</date>
+  </content>
+</slide>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "4">
+  <title>Slide 4</title>
+  <content>
+    <topic> CAS Login </topic>
+    <list> 
+        <item>Include all CAS files</item>
+        <item>After login, CAS sets session header with user ID</item>
+        <item>Checks to see if user ID is in the database</item>
+		<item>If user is valid, they are taken to the admin page</item>
+        <item>If user is not valid, they are redirected to frontpage</item>
+		<item>After logout, user is taken back to the frontpage</item>
+    </list>
+	<date>05/06/11</date>
+  </content>
+</slide>

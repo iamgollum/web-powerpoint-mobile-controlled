@@ -1,0 +1,229 @@
+/********************Reset HTML*************************/
+:link,:visited { text-decoration:none }
+ul,ol { list-style:none }
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{ margin:0; padding:0 }
+a img,:link img,:visited img { border:none }
+address { font-style:normal }
+
+/********************/
+/*template.css start*/
+/********************/ 
+
+#menu p 
+{
+display: none;
+}
+
+body 
+{ 
+padding:0px;
+margin:0px;
+}
+
+#wrapper{
+width: 1020px;
+height: 760px;
+max-width: 1020px; 
+max-height: 760px;
+margin-left: auto; 
+margin-right: auto;
+}
+
+#header 
+{
+padding-top: 40px; 
+padding-bottom: 0px; 
+width: 1020px; 
+height: 100px;
+}
+    img#logo{
+    float: left;
+    }
+    span#rightHead{
+    width: 428px;
+    height: 100px;
+    float: left;
+    padding-left: 26px;
+    }
+    #nav{
+    margin-left: 80px;
+    }
+    #nav ul{
+     padding-bottom: 2px;
+     margin: 0;
+    }
+
+    #nav ul li{
+      margin-top: 5px;
+      float: left;
+      padding: 0px;
+    }
+    #nav ul li a#home{
+      border-right: 2px solid grey;
+      padding-right: 10px;
+      padding-top: 0px;
+    }
+    #nav ul li a#login{
+      padding-left: 10px;
+      padding-top: 0px;
+      cursor: pointer;
+    }
+    #nav ul li a{
+      display: block;
+      font: bold 17px palatino; 
+      color: grey;
+    }
+    #search {
+      clear: both;
+      padding-top: 10px;
+      margin-left: 50px;
+    }
+
+    img#bgnSearch{
+    float: left;
+    }
+    input#textField{
+    float: left;
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 5px;
+    width: 250px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    }
+    input#submit{
+    width: 83px;
+    height: 25px;
+    background: white url('../images/search.png') no-repeat top;
+    border: none;
+    }
+    input#submit:hover{
+    width: 83px;
+    height: 25px;
+    background: white url('../images/search_hover.png') no-repeat top;
+    text-decoration: none;
+    border: none;
+    }
+      
+div#content
+{
+width: 1020px;
+max-height: 520px;
+height: 520px;
+text-align: center;
+padding-top: 50px;
+background-image:url('../images/background.jpg');
+background-repeat:repeat-x; 
+} 
+    div#contentHead{
+    width: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    }
+    select{
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: #E0EEEE;
+    }
+    option#start, option#end{
+    background-color: #FFFFFF;
+    color: black;
+    }
+    option#start:hover, option#end:hover{
+    background-color: #FFFFFF;
+    }
+    button#loadP{
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: #00E5EE;
+    border-radius: 6px;
+   -webkit-border-radius: 6px; /* Safari */
+    }
+    div#contentMain{
+    clear: both;
+    width: 800px;
+    margin-left: 180px;
+    height: 250px;    
+    }
+    textArea{
+    resize: none;
+    }
+    textArea#slides{
+    float: left;
+    }
+    div#middleButtons{
+    width: 120px;
+    float: left;
+    }
+    div#middleButtons button#slideLeft, div#middleButtons button#slideRight{
+    background: #F7F7F7;
+    border: 1px inset #F7F7F7;
+    cursor: auto;
+    border-radius: 5px;
+   -webkit-border-radius: 5px; /* Safari */
+    }
+    button.mid{
+    width: 100px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    }
+    textArea#transfer{
+    float: left;
+    }
+    #addSec{
+    clear: both;
+    width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .fixedWidth{
+     display: inline-block;
+     width: 80px;
+     padding: 10px;
+    }
+    .add{
+    width: 250px;
+    margin-left: 10px;
+    padding: 2px;
+    }
+    #addSec button{
+    margin-top: 10px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    width: 100px;
+    }
+div#footer
+{
+clear: both;
+width: 1020px;
+height: 40px;
+}
+    span#copyright
+       {
+    color: grey;
+    float: left;
+    margin-left: 320px;
+    margin-top: 10px;
+    padding-top: 0px;
+    width: 500px;
+    height: 40px;
+    }
+    span#clock
+       {
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    font: bold 20px Courier New, monospace;
+    color: black;
+    }
+

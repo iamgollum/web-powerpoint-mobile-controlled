@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "2">
+  <title>Slide 2</title>
+  <content>
+    <topic> The Goal </topic>
+    <list> 
+        <item>Create digital signage demonstration that displays HTML pages as slides</item>
+        <item>Cycle through pages using a mobile device</item>
+        <item>Administrative functionality where pointers to pages can be managed</item>
+        <item>blah</item>        
+    </list>
+	<date>05/06/11</date>
+  </content>
+</slide>

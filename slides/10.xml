@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "10">
+  <title>Slide 10</title>
+  <content>
+    <topic> The Team </topic>
+    <list> 
+        <item>Aaron Tobias</item>
+        <item>Nick Martin</item>
+        <item>Michael Villeneuve</item>
+        <item>Juliana Vetter</item>        
+    </list>
+	<date>04/29/11</date>
+  </content>
+</slide>

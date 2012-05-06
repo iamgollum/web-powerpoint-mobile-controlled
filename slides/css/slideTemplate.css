@@ -1,0 +1,65 @@
+div#xml{
+    height: 100%;
+    width: 100%;
+	color:#8cadae;
+	  -moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color:#e2e8eb;
+	padding-top:15px;
+	
+}
+
+div#xml h1, div#slideVisual h1
+{
+   font: bold 300% Calibri, monospace;
+   padding-bottom: 15px;
+   color: #697e88;
+   background-color:#c5d1d7;
+   -moz-border-radius: 15px;
+	border-radius: 15px;
+	width:70%;
+	display: inline-block;
+	
+}
+
+div#xml h2, div#slideVisual h2
+{
+   font: bold 200% Calibri, monospace;
+   color:#d16f49;
+   margin-top: 30px;
+}
+
+div#xml #wrapper2
+{
+color:#8cadae;
+background-color:#e2e8eb;
+width: 100%;
+}
+div#xml ul, div#slideVisual ul
+{
+   /*border: 1px solid red;*/
+   padding: 50px 10px 50px 50px;
+   margin-top:-30px;
+   list-style-type: circle;
+   max-width: 450px;
+   margin-left: auto;
+   margin-right: auto;
+   /*text-align: center;*/
+  /* margin-left: 40%;*/
+  display: inline-block;
+}
+
+div#xml li, div#slideVisual li
+{
+   font: bold 160% Calibri, monospace;
+   text-align: left;
+}
+div#xml div, div#slideVisual div
+{
+color:white;
+ -moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color:#8cadae;
+   font: bold 80% Calibri, monospace;
+}
+

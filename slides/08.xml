@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "8">
+  <title>Slide 8</title>
+  <content>
+    <topic> Features for the Future </topic>
+    <list> 
+        <item>Upload extra CSS templates</item>
+        <item>Change content within slide view</item>
+        <item>Create new presentation option</item>       
+    </list>
+	<date>05/06/11</date>
+  </content>
+</slide>

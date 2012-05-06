@@ -1,0 +1,219 @@
+/********************Reset HTML*************************/
+:link,:visited { text-decoration:none }
+ul,ol { list-style:none }
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{ margin:0; padding:0 }
+a img,:link img,:visited img { border:none }
+address { font-style:normal }
+
+/********************/
+/*template.css start*/
+/********************/
+
+#menu p 
+{
+display: none;
+}
+
+body 
+{ 
+padding:0px;
+margin:0px;
+width: 100%;
+min-height: 100%;
+font-size: 16px;
+}
+
+#wrapper{
+width: 1020px;
+height: 760px;
+margin-left: auto; 
+margin-right: auto;
+}
+#top{
+    height: 195px;
+}
+#header 
+{
+padding-top: 40px; 
+padding-bottom: 0px; 
+width: 1020px; 
+height: 100px;
+}
+    img#logo{
+    float: left;
+    }
+    span#rightHead{
+    width: 428px;
+    height: 100px;
+    float: left;
+    padding-left: 26px;
+    }
+    #nav{
+    margin-left: 160px;
+    }
+    #nav ul{
+     padding-bottom: 2px;
+     margin: 0;
+    }
+
+    #nav ul li{
+      margin-top: 5px;
+      float: left;
+      padding: 0px;
+    }
+    #nav ul li a#home{
+      border-right: 2px solid grey;
+      padding-right: 10px;
+      padding-top: 0px;
+    }
+    #nav ul li a#login{
+      padding-left: 10px;
+      padding-top: 0px;
+      cursor: pointer;
+    }
+    #nav ul li a{
+      display: block;
+      font: bold 17px palatino; 
+      color: grey;
+    }
+    #search {
+      clear: both;
+      padding-top: 10px;
+      margin-left: 160px;
+    }
+
+    img#bgnSearch{
+    float: left;
+    }
+    input#textField{
+    float: left;
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 5px;
+    width: 48px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    }
+    input#submit{
+    width: 83px;
+    height: 25px;
+    background-image: url('images/jump.png');
+    border: none;
+    float: left;
+    }
+    input#submit:hover{
+    width: 83px;
+    height: 25px;
+    background-image: url('images/jump_hover.png');
+    text-decoration: none;
+    border: none;
+    float: left;
+    }
+    
+div#tabs
+{
+clear: both;
+width: 1020px;
+height: 45px;
+border-bottom: 10px solid #949494;
+}  
+    #tabs ul{
+     padding-bottom: 0px;
+     margin: 0;
+    }
+
+    #tabs ul li{
+      margin-right: 10px;
+      float: left;
+      height: 30px;
+      width: 95px;
+      color: white;
+      padding-top: 10px;
+      background-color: #7A7A7A;
+      -moz-border-radius-topright: 8px;
+      -moz-border-radius-topleft: 8px;
+      -webkit-border-top-left-radius: 8px;        
+      -webkit-border-top-right-radius: 8px;      
+      text-align: center;
+      cursor: pointer;
+    }  
+    #tabs ul li#start{
+      margin-left: 15px;
+      height: 35px;
+      background-color: #949494;
+    }
+    #tabs ul li#end{
+      margin-right: 15px;
+    }
+    
+    #tabs a{
+      float: left;
+      cursor: pointer;
+    }     
+    .shadow {
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9f9f9f', endColorstr='#737373');
+     background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#333));
+     background: -moz-linear-gradient(top, #ccc, #333);
+    }
+div#content
+{
+width: 1020px;
+height: 465px;
+text-align: center;
+padding-top: 50px;
+background-image:url('images/background.jpg');
+background-repeat:repeat-x repeat-y; 
+clear: both;
+} 
+
+div#footer
+{
+clear: both;
+width: 1020px;
+height: 40px;
+}
+    #toggler{
+    /*margin-top: 10px;
+    float:left;*/
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    }
+    #controlPanel{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 200px;
+    /*border: 2px solid #949494;*/
+    }
+    #controlPanel input{
+    margin-top: 3px; 
+    margin-bottom: 3px;
+    }
+    .operation{
+    width: 180px;
+    height: 30px;
+    }
+    span#copyright
+       {
+    color: grey;
+    float: left;
+    margin-left: 320px;
+    margin-top: 10px;
+    padding-top: 0px;
+    width: 500px;
+    height: 40px;
+    }
+    span#clock
+       {
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    font: bold 20px Courier New, monospace;
+    color: black;
+    }
+

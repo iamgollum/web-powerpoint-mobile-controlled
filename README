@@ -1,0 +1,18 @@
+----------------------------
+Author: Aaron Tobias
+School: Rensselaer Polytechnic Institute
+Project: Mobile Controlled Web Powerpoint System
+Description: 
+	Web 2.0 based version of Microsoft Powerpoint Abridged:
+	- xml slide framework (limited)
+	- pagination
+	- drag and drop
+	- deletion / insertion
+	- scaled slide previewer
+	- CAS login and security
+	- scaled presentation display mode
+	- mobile controller for ppt slides
+
+Class: Web Systems Development
+Version: 1.0
+----------------------------

@@ -1,0 +1,82 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type = "text/javascript" src = "../jquery/jquery1.4.2.js"></script> 
+<script type = "text/javascript" src = "../jquery/jquery-impromptu.3.1.min.js"></script>
+<script type = "text/javascript" src = "admin.js"></script> 
+
+<link type = "text/css" rel='stylesheet' href = "admin.css" />
+
+<title>Presentation Administration</title>
+</head>
+ 
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
+<!-- <audio src="audio/intro.ogg" autoplay=true></audio> -->
+<div id = "wrapper">
+    <div id= "header">
+        <img id = "logo" src="../images/logo.png" alt="Mobile Viusalization 1.0" width="563" height="77" />
+        <span id = "rightHead"> 
+        
+            <div id = "nav" >
+                <ul>
+                  <li><a id = "home" > Welcome Administrator</a></li>
+                  <li><a id = "login" onClick = "javascript:void(0)" > Logout</a></li>
+                </ul>    
+            </div>
+              
+            <div id = "search">  
+                <img id = "bgnSearch" src="../images/search_beg.png" width="27" height="25" />                
+                <input id = "textField" type="text"  name = "pptfilter" value = "Search By Slide Title" />
+                <input id = "submit" type = "button"/>   
+            </div>
+        </span>
+    </div>
+    <div id = "content">
+        <div id = "contentHead">
+            <select name="presentations">
+                <option id = "start" value="start">-Presentations-</option>
+                <option value="pres2">Google Security</option>
+                <option value="pres3">Data.gov Overview</option>
+                <option value="pres4">Battlefield 3</option>
+                <option value="pres5">Starbucks Promotional</option>
+                <option id = "end" value="end">-End of List-</option>
+            </select>
+            <button id = "loadP" type="button">Load Presentation</button>
+        </div>
+        <div id = "contentMain">
+            <!--Left Slides Area -->
+            <textarea id = "slides" rows="10" cols="30">
+            </textarea>
+            <!--Middle Buttons -->
+            <div id = "middleButtons">
+                <button id = "slideRight" class = "mid" type="button"> > </button>
+                <button id = "slideLeft" class = "mid" type="button"> < </button>
+                <button class = "mid" type="button">Move Up</button>
+                <button class = "mid"type="button">Move Down</button>
+                <button class = "mid" type="button">Delete</button>
+            </div>    
+            <!-- Right Slides Transfer Area -->
+            <textarea id = "transfer" rows="10" cols="30">
+            </textarea>
+        </div>
+        <div id = "addSec">
+               <span  class = "fixedWidth" > Slide Name: </span> <input class = "add" type="text" name="sName" /><br />
+               <span  class = "fixedWidth" >  Slide Num: </span> <input class = "add" type="text" name="sNumber" /><br />
+               <span  class = "fixedWidth" > Location: </span> <input class = "add" type="text" name="url" />
+               <button type="button">Add Slide</button>
+        </div>
+        <form enctype="multipart/form-data" action="uploader.php" method="POST">
+        <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+        Choose a slide to upload: <input name="uploadedfile" type="file" /><br />
+        <input type="submit" value="Upload File" />
+        </form>
+    </div>
+    <div id = "footer">
+        <span id="copyright">Copyright &copy; 2011 WebSys - All Rights Reserved </span>
+        <span id="clock">&nbsp;</span> 
+    </div>
+</div>    
+</body>
+</html>

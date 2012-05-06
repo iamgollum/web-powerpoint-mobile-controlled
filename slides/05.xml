@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slide num = "5">
+  <title>Slide 5</title>
+  <content>
+    <topic> The Mobile </topic>
+    <list> 
+        <item>Smartphone needs to interact with the website</item>
+        <item>Uses play, pause, forward, reverse to control slides</item>
+        <item>Token created so that when user is logged in they can use the mobile device</item> 
+    </list>
+	<date>05/06/11</date>
+  </content>
+</slide>

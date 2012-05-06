@@ -1,0 +1,864 @@
+071C .START phpCAS-1.2.1 ****************** [CAS.php:473]
+071C .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+071C .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+071C .|    |    Starting a new session [client.php:680]
+071C .|    <= ''
+071C .<= ''
+071C .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+071C .<= ''
+071C .=> phpCAS::forceAuthentication() [logout.php:6]
+071C .|    => CASClient::forceAuthentication() [CAS.php:1016]
+071C .|    |    => CASClient::isAuthenticated() [client.php:952]
+071C .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+071C .|    |    |    |    user = `tobiaa' [client.php:1219]
+071C .|    |    |    |    proxies = "" [client.php:1224]
+071C .|    |    |    <= true
+071C .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+071C .|    |    <= true
+071C .|    |    no need to authenticate [client.php:954]
+071C .|    <= true
+071C .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+071C .<= ''
+071C .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+071C .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+071C .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+071C .|    |    exit()
+071C .|    |    -
+071C .|    -
+9219 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+9219 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+9219 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+9219 .|    |    Starting a new session [client.php:680]
+9219 .|    <= ''
+9219 .<= ''
+9219 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+9219 .<= ''
+9219 .=> phpCAS::forceAuthentication() [logout.php:6]
+9219 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+9219 .|    |    => CASClient::isAuthenticated() [client.php:952]
+9219 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+9219 .|    |    |    |    user = `tobiaa' [client.php:1219]
+9219 .|    |    |    |    proxies = "" [client.php:1224]
+9219 .|    |    |    <= true
+9219 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+9219 .|    |    <= true
+9219 .|    |    no need to authenticate [client.php:954]
+9219 .|    <= true
+9219 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+9219 .<= ''
+9219 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+9219 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+9219 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+9219 .|    |    exit()
+9219 .|    |    -
+9219 .|    -
+348A .START phpCAS-1.2.1 ****************** [CAS.php:473]
+348A .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+348A .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+348A .|    |    Starting a new session [client.php:680]
+348A .|    <= ''
+348A .<= ''
+348A .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+348A .<= ''
+348A .=> phpCAS::forceAuthentication() [logout.php:6]
+348A .|    => CASClient::forceAuthentication() [CAS.php:1016]
+348A .|    |    => CASClient::isAuthenticated() [client.php:952]
+348A .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+348A .|    |    |    |    user = `tobiaa' [client.php:1219]
+348A .|    |    |    |    proxies = "" [client.php:1224]
+348A .|    |    |    <= true
+348A .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+348A .|    |    <= true
+348A .|    |    no need to authenticate [client.php:954]
+348A .|    <= true
+348A .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+348A .<= ''
+348A .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+348A .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+348A .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+348A .|    |    exit()
+348A .|    |    -
+348A .|    -
+6BFC .START phpCAS-1.2.1 ****************** [CAS.php:473]
+6BFC .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+6BFC .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+6BFC .|    |    Starting a new session [client.php:680]
+6BFC .|    <= ''
+6BFC .<= ''
+6BFC .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+6BFC .<= ''
+6BFC .=> phpCAS::forceAuthentication() [logout.php:6]
+6BFC .|    => CASClient::forceAuthentication() [CAS.php:1016]
+6BFC .|    |    => CASClient::isAuthenticated() [client.php:952]
+6BFC .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+6BFC .|    |    |    |    user = `tobiaa' [client.php:1219]
+6BFC .|    |    |    |    proxies = "" [client.php:1224]
+6BFC .|    |    |    <= true
+6BFC .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+6BFC .|    |    <= true
+6BFC .|    |    no need to authenticate [client.php:954]
+6BFC .|    <= true
+6BFC .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+6BFC .<= ''
+6BFC .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+6BFC .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+6BFC .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+6BFC .|    |    exit()
+6BFC .|    |    -
+6BFC .|    -
+C44E .START phpCAS-1.2.1 ****************** [CAS.php:473]
+C44E .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+C44E .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+C44E .|    |    Starting a new session [client.php:680]
+C44E .|    <= ''
+C44E .<= ''
+C44E .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+C44E .<= ''
+C44E .=> phpCAS::forceAuthentication() [logout.php:6]
+C44E .|    => CASClient::forceAuthentication() [CAS.php:1016]
+C44E .|    |    => CASClient::isAuthenticated() [client.php:952]
+C44E .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+C44E .|    |    |    |    user = `tobiaa' [client.php:1219]
+C44E .|    |    |    |    proxies = "" [client.php:1224]
+C44E .|    |    |    <= true
+C44E .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+C44E .|    |    <= true
+C44E .|    |    no need to authenticate [client.php:954]
+C44E .|    <= true
+C44E .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+C44E .<= ''
+C44E .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+C44E .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+C44E .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+C44E .|    |    exit()
+C44E .|    |    -
+C44E .|    -
+56C8 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+56C8 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+56C8 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+56C8 .|    |    Starting a new session [client.php:680]
+56C8 .|    <= ''
+56C8 .<= ''
+56C8 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+56C8 .<= ''
+56C8 .=> phpCAS::forceAuthentication() [logout.php:6]
+56C8 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+56C8 .|    |    => CASClient::isAuthenticated() [client.php:952]
+56C8 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+56C8 .|    |    |    |    user = `tobiaa' [client.php:1219]
+56C8 .|    |    |    |    proxies = "" [client.php:1224]
+56C8 .|    |    |    <= true
+56C8 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+56C8 .|    |    <= true
+56C8 .|    |    no need to authenticate [client.php:954]
+56C8 .|    <= true
+56C8 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+56C8 .<= ''
+56C8 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+56C8 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+56C8 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+56C8 .|    |    exit()
+56C8 .|    |    -
+56C8 .|    -
+3327 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+3327 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+3327 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+3327 .|    |    Starting a new session [client.php:680]
+3327 .|    <= ''
+3327 .<= ''
+3327 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+3327 .<= ''
+3327 .=> phpCAS::forceAuthentication() [logout.php:6]
+3327 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+3327 .|    |    => CASClient::isAuthenticated() [client.php:952]
+3327 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+3327 .|    |    |    |    user = `tobiaa' [client.php:1219]
+3327 .|    |    |    |    proxies = "" [client.php:1224]
+3327 .|    |    |    <= true
+3327 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+3327 .|    |    <= true
+3327 .|    |    no need to authenticate [client.php:954]
+3327 .|    <= true
+3327 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+3327 .<= ''
+3327 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+3327 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+3327 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+3327 .|    |    exit()
+3327 .|    |    -
+3327 .|    -
+FEE4 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+FEE4 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+FEE4 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+FEE4 .|    |    Starting a new session [client.php:680]
+FEE4 .|    <= ''
+FEE4 .<= ''
+FEE4 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+FEE4 .<= ''
+FEE4 .=> phpCAS::forceAuthentication() [logout.php:6]
+FEE4 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+FEE4 .|    |    => CASClient::isAuthenticated() [client.php:952]
+FEE4 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+FEE4 .|    |    |    |    user = `tobiaa' [client.php:1219]
+FEE4 .|    |    |    |    proxies = "" [client.php:1224]
+FEE4 .|    |    |    <= true
+FEE4 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+FEE4 .|    |    <= true
+FEE4 .|    |    no need to authenticate [client.php:954]
+FEE4 .|    <= true
+FEE4 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+FEE4 .<= ''
+FEE4 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+FEE4 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+FEE4 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+FEE4 .|    |    exit()
+FEE4 .|    |    -
+FEE4 .|    -
+60BE .START phpCAS-1.2.1 ****************** [CAS.php:473]
+60BE .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+60BE .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+60BE .|    |    Starting a new session [client.php:680]
+60BE .|    <= ''
+60BE .<= ''
+60BE .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+60BE .<= ''
+60BE .=> phpCAS::forceAuthentication() [logout.php:6]
+60BE .|    => CASClient::forceAuthentication() [CAS.php:1016]
+60BE .|    |    => CASClient::isAuthenticated() [client.php:952]
+60BE .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+60BE .|    |    |    |    user = `tobiaa' [client.php:1219]
+60BE .|    |    |    |    proxies = "" [client.php:1224]
+60BE .|    |    |    <= true
+60BE .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+60BE .|    |    <= true
+60BE .|    |    no need to authenticate [client.php:954]
+60BE .|    <= true
+60BE .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+60BE .<= ''
+60BE .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+60BE .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+60BE .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+60BE .|    |    exit()
+60BE .|    |    -
+60BE .|    -
+A40C .START phpCAS-1.2.1 ****************** [CAS.php:473]
+A40C .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+A40C .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+A40C .|    |    Starting a new session [client.php:680]
+A40C .|    <= ''
+A40C .<= ''
+A40C .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+A40C .<= ''
+A40C .=> phpCAS::forceAuthentication() [logout.php:6]
+A40C .|    => CASClient::forceAuthentication() [CAS.php:1016]
+A40C .|    |    => CASClient::isAuthenticated() [client.php:952]
+A40C .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+A40C .|    |    |    |    user = `tobiaa' [client.php:1219]
+A40C .|    |    |    |    proxies = "" [client.php:1224]
+A40C .|    |    |    <= true
+A40C .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+A40C .|    |    <= true
+A40C .|    |    no need to authenticate [client.php:954]
+A40C .|    <= true
+A40C .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+A40C .<= ''
+A40C .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+A40C .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+A40C .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+A40C .|    |    exit()
+A40C .|    |    -
+A40C .|    -
+B26E .START phpCAS-1.2.1 ****************** [CAS.php:473]
+B26E .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+B26E .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+B26E .|    |    Starting a new session [client.php:680]
+B26E .|    <= ''
+B26E .<= ''
+B26E .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+B26E .<= ''
+B26E .=> phpCAS::forceAuthentication() [logout.php:6]
+B26E .|    => CASClient::forceAuthentication() [CAS.php:1016]
+B26E .|    |    => CASClient::isAuthenticated() [client.php:952]
+B26E .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+B26E .|    |    |    |    user = `tobiaa' [client.php:1219]
+B26E .|    |    |    |    proxies = "" [client.php:1224]
+B26E .|    |    |    <= true
+B26E .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+B26E .|    |    <= true
+B26E .|    |    no need to authenticate [client.php:954]
+B26E .|    <= true
+B26E .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+B26E .<= ''
+B26E .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+B26E .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+B26E .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+B26E .|    |    exit()
+B26E .|    |    -
+B26E .|    -
+A02F .START phpCAS-1.2.1 ****************** [CAS.php:473]
+A02F .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+A02F .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+A02F .|    |    Starting a new session [client.php:680]
+A02F .|    <= ''
+A02F .<= ''
+A02F .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+A02F .<= ''
+A02F .=> phpCAS::forceAuthentication() [logout.php:6]
+A02F .|    => CASClient::forceAuthentication() [CAS.php:1016]
+A02F .|    |    => CASClient::isAuthenticated() [client.php:952]
+A02F .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+A02F .|    |    |    |    user = `tobiaa' [client.php:1219]
+A02F .|    |    |    |    proxies = "" [client.php:1224]
+A02F .|    |    |    <= true
+A02F .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+A02F .|    |    <= true
+A02F .|    |    no need to authenticate [client.php:954]
+A02F .|    <= true
+A02F .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+A02F .<= ''
+A02F .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+A02F .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+A02F .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+A02F .|    |    exit()
+A02F .|    |    -
+A02F .|    -
+E5C5 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+E5C5 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+E5C5 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+E5C5 .|    |    Starting a new session [client.php:680]
+E5C5 .|    <= ''
+E5C5 .<= ''
+E5C5 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+E5C5 .<= ''
+E5C5 .=> phpCAS::forceAuthentication() [logout.php:6]
+E5C5 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+E5C5 .|    |    => CASClient::isAuthenticated() [client.php:952]
+E5C5 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+E5C5 .|    |    |    |    user = `tobiaa' [client.php:1219]
+E5C5 .|    |    |    |    proxies = "" [client.php:1224]
+E5C5 .|    |    |    <= true
+E5C5 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+E5C5 .|    |    <= true
+E5C5 .|    |    no need to authenticate [client.php:954]
+E5C5 .|    <= true
+E5C5 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+E5C5 .<= ''
+E5C5 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+E5C5 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+E5C5 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+E5C5 .|    |    exit()
+E5C5 .|    |    -
+E5C5 .|    -
+B555 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+B555 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+B555 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+B555 .|    |    Starting a new session [client.php:680]
+B555 .|    <= ''
+B555 .<= ''
+B555 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+B555 .<= ''
+B555 .=> phpCAS::forceAuthentication() [logout.php:6]
+B555 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+B555 .|    |    => CASClient::isAuthenticated() [client.php:952]
+B555 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+B555 .|    |    |    |    user = `tobiaa' [client.php:1219]
+B555 .|    |    |    |    proxies = "" [client.php:1224]
+B555 .|    |    |    <= true
+B555 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+B555 .|    |    <= true
+B555 .|    |    no need to authenticate [client.php:954]
+B555 .|    <= true
+B555 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+B555 .<= ''
+B555 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+B555 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+B555 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+B555 .|    |    exit()
+B555 .|    |    -
+B555 .|    -
+1B86 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+1B86 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+1B86 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+1B86 .|    |    Starting a new session [client.php:680]
+1B86 .|    <= ''
+1B86 .<= ''
+1B86 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+1B86 .<= ''
+1B86 .=> phpCAS::forceAuthentication() [logout.php:6]
+1B86 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+1B86 .|    |    => CASClient::isAuthenticated() [client.php:952]
+1B86 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+1B86 .|    |    |    |    user = `tobiaa' [client.php:1219]
+1B86 .|    |    |    |    proxies = "" [client.php:1224]
+1B86 .|    |    |    <= true
+1B86 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+1B86 .|    |    <= true
+1B86 .|    |    no need to authenticate [client.php:954]
+1B86 .|    <= true
+1B86 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+1B86 .<= ''
+1B86 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+1B86 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+1B86 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+1B86 .|    |    exit()
+1B86 .|    |    -
+1B86 .|    -
+2AE0 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+2AE0 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+2AE0 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+2AE0 .|    |    Starting a new session [client.php:680]
+2AE0 .|    <= ''
+2AE0 .<= ''
+2AE0 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+2AE0 .<= ''
+2AE0 .=> phpCAS::forceAuthentication() [logout.php:6]
+2AE0 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+2AE0 .|    |    => CASClient::isAuthenticated() [client.php:952]
+2AE0 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+2AE0 .|    |    |    |    user = `tobiaa' [client.php:1219]
+2AE0 .|    |    |    |    proxies = "" [client.php:1224]
+2AE0 .|    |    |    <= true
+2AE0 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+2AE0 .|    |    <= true
+2AE0 .|    |    no need to authenticate [client.php:954]
+2AE0 .|    <= true
+2AE0 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+2AE0 .<= ''
+2AE0 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+2AE0 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+2AE0 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+2AE0 .|    |    exit()
+2AE0 .|    |    -
+2AE0 .|    -
+B507 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+B507 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+B507 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+B507 .|    |    Starting a new session [client.php:680]
+B507 .|    <= ''
+B507 .<= ''
+B507 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+B507 .<= ''
+B507 .=> phpCAS::forceAuthentication() [logout.php:6]
+B507 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+B507 .|    |    => CASClient::isAuthenticated() [client.php:952]
+B507 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+B507 .|    |    |    |    user = `tobiaa' [client.php:1219]
+B507 .|    |    |    |    proxies = "" [client.php:1224]
+B507 .|    |    |    <= true
+B507 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+B507 .|    |    <= true
+B507 .|    |    no need to authenticate [client.php:954]
+B507 .|    <= true
+B507 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+B507 .<= ''
+B507 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+B507 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+B507 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+B507 .|    |    exit()
+B507 .|    |    -
+B507 .|    -
+C230 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+C230 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+C230 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+C230 .|    |    Starting a new session [client.php:680]
+C230 .|    <= ''
+C230 .<= ''
+C230 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+C230 .<= ''
+C230 .=> phpCAS::forceAuthentication() [logout.php:6]
+C230 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+C230 .|    |    => CASClient::isAuthenticated() [client.php:952]
+C230 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+C230 .|    |    |    |    user = `tobiaa' [client.php:1219]
+C230 .|    |    |    |    proxies = "" [client.php:1224]
+C230 .|    |    |    <= true
+C230 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+C230 .|    |    <= true
+C230 .|    |    no need to authenticate [client.php:954]
+C230 .|    <= true
+C230 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+C230 .<= ''
+C230 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+C230 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+C230 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+C230 .|    |    exit()
+C230 .|    |    -
+C230 .|    -
+8201 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+8201 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+8201 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+8201 .|    |    Starting a new session [client.php:680]
+8201 .|    <= ''
+8201 .<= ''
+8201 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+8201 .<= ''
+8201 .=> phpCAS::forceAuthentication() [logout.php:6]
+8201 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+8201 .|    |    => CASClient::isAuthenticated() [client.php:952]
+8201 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+8201 .|    |    |    |    user = `tobiaa' [client.php:1219]
+8201 .|    |    |    |    proxies = "" [client.php:1224]
+8201 .|    |    |    <= true
+8201 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+8201 .|    |    <= true
+8201 .|    |    no need to authenticate [client.php:954]
+8201 .|    <= true
+8201 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+8201 .<= ''
+8201 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+8201 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+8201 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+8201 .|    |    exit()
+8201 .|    |    -
+8201 .|    -
+B622 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+B622 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+B622 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+B622 .|    |    Starting a new session [client.php:680]
+B622 .|    <= ''
+B622 .<= ''
+B622 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+B622 .<= ''
+B622 .=> phpCAS::forceAuthentication() [logout.php:6]
+B622 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+B622 .|    |    => CASClient::isAuthenticated() [client.php:952]
+B622 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+B622 .|    |    |    |    user = `tobiaa' [client.php:1219]
+B622 .|    |    |    |    proxies = "" [client.php:1224]
+B622 .|    |    |    <= true
+B622 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+B622 .|    |    <= true
+B622 .|    |    no need to authenticate [client.php:954]
+B622 .|    <= true
+B622 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+B622 .<= ''
+B622 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+B622 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+B622 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+B622 .|    |    exit()
+B622 .|    |    -
+B622 .|    -
+9517 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+9517 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+9517 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+9517 .|    |    Starting a new session [client.php:680]
+9517 .|    <= ''
+9517 .<= ''
+9517 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+9517 .<= ''
+9517 .=> phpCAS::forceAuthentication() [logout.php:6]
+9517 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+9517 .|    |    => CASClient::isAuthenticated() [client.php:952]
+9517 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+9517 .|    |    |    |    user = `tobiaa' [client.php:1219]
+9517 .|    |    |    |    proxies = "" [client.php:1224]
+9517 .|    |    |    <= true
+9517 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+9517 .|    |    <= true
+9517 .|    |    no need to authenticate [client.php:954]
+9517 .|    <= true
+9517 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+9517 .<= ''
+9517 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+9517 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+9517 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+9517 .|    |    exit()
+9517 .|    |    -
+9517 .|    -
+2D9B .START phpCAS-1.2.1 ****************** [CAS.php:473]
+2D9B .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+2D9B .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+2D9B .|    |    Starting a new session [client.php:680]
+2D9B .|    <= ''
+2D9B .<= ''
+2D9B .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+2D9B .<= ''
+2D9B .=> phpCAS::forceAuthentication() [logout.php:6]
+2D9B .|    => CASClient::forceAuthentication() [CAS.php:1016]
+2D9B .|    |    => CASClient::isAuthenticated() [client.php:952]
+2D9B .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+2D9B .|    |    |    |    user = `tobiaa' [client.php:1219]
+2D9B .|    |    |    |    proxies = "" [client.php:1224]
+2D9B .|    |    |    <= true
+2D9B .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+2D9B .|    |    <= true
+2D9B .|    |    no need to authenticate [client.php:954]
+2D9B .|    <= true
+2D9B .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+2D9B .<= ''
+2D9B .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+2D9B .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+2D9B .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+2D9B .|    |    exit()
+2D9B .|    |    -
+2D9B .|    -
+F1E9 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+F1E9 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+F1E9 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+F1E9 .|    |    Starting a new session [client.php:680]
+F1E9 .|    <= ''
+F1E9 .<= ''
+F1E9 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+F1E9 .<= ''
+F1E9 .=> phpCAS::forceAuthentication() [logout.php:6]
+F1E9 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+F1E9 .|    |    => CASClient::isAuthenticated() [client.php:952]
+F1E9 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+F1E9 .|    |    |    |    user = `tobiaa' [client.php:1219]
+F1E9 .|    |    |    |    proxies = "" [client.php:1224]
+F1E9 .|    |    |    <= true
+F1E9 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+F1E9 .|    |    <= true
+F1E9 .|    |    no need to authenticate [client.php:954]
+F1E9 .|    <= true
+F1E9 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+F1E9 .<= ''
+F1E9 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+F1E9 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+F1E9 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+F1E9 .|    |    exit()
+F1E9 .|    |    -
+F1E9 .|    -
+BA08 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+BA08 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+BA08 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+BA08 .|    |    Starting a new session [client.php:680]
+BA08 .|    <= ''
+BA08 .<= ''
+BA08 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+BA08 .<= ''
+BA08 .=> phpCAS::forceAuthentication() [logout.php:6]
+BA08 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+BA08 .|    |    => CASClient::isAuthenticated() [client.php:952]
+BA08 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+BA08 .|    |    |    |    user = `tobiaa' [client.php:1219]
+BA08 .|    |    |    |    proxies = "" [client.php:1224]
+BA08 .|    |    |    <= true
+BA08 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+BA08 .|    |    <= true
+BA08 .|    |    no need to authenticate [client.php:954]
+BA08 .|    <= true
+BA08 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+BA08 .<= ''
+BA08 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+BA08 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+BA08 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+BA08 .|    |    exit()
+BA08 .|    |    -
+BA08 .|    -
+CC11 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+CC11 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+CC11 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+CC11 .|    |    Starting a new session [client.php:680]
+CC11 .|    <= ''
+CC11 .<= ''
+CC11 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+CC11 .<= ''
+CC11 .=> phpCAS::forceAuthentication() [logout.php:6]
+CC11 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+CC11 .|    |    => CASClient::isAuthenticated() [client.php:952]
+CC11 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+CC11 .|    |    |    |    user = `tobiaa' [client.php:1219]
+CC11 .|    |    |    |    proxies = "" [client.php:1224]
+CC11 .|    |    |    <= true
+CC11 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+CC11 .|    |    <= true
+CC11 .|    |    no need to authenticate [client.php:954]
+CC11 .|    <= true
+CC11 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+CC11 .<= ''
+CC11 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+CC11 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+CC11 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+CC11 .|    |    exit()
+CC11 .|    |    -
+CC11 .|    -
+F926 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+F926 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+F926 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+F926 .|    |    Starting a new session [client.php:680]
+F926 .|    <= ''
+F926 .<= ''
+F926 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+F926 .<= ''
+F926 .=> phpCAS::forceAuthentication() [logout.php:6]
+F926 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+F926 .|    |    => CASClient::isAuthenticated() [client.php:952]
+F926 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+F926 .|    |    |    |    user = `tobiaa' [client.php:1219]
+F926 .|    |    |    |    proxies = "" [client.php:1224]
+F926 .|    |    |    <= true
+F926 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+F926 .|    |    <= true
+F926 .|    |    no need to authenticate [client.php:954]
+F926 .|    <= true
+F926 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+F926 .<= ''
+F926 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+F926 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+F926 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+F926 .|    |    exit()
+F926 .|    |    -
+F926 .|    -
+165E .START phpCAS-1.2.1 ****************** [CAS.php:473]
+165E .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+165E .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+165E .|    |    Starting a new session [client.php:680]
+165E .|    <= ''
+165E .<= ''
+165E .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+165E .<= ''
+165E .=> phpCAS::forceAuthentication() [logout.php:6]
+165E .|    => CASClient::forceAuthentication() [CAS.php:1016]
+165E .|    |    => CASClient::isAuthenticated() [client.php:952]
+165E .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+165E .|    |    |    |    user = `tobiaa' [client.php:1219]
+165E .|    |    |    |    proxies = "" [client.php:1224]
+165E .|    |    |    <= true
+165E .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+165E .|    |    <= true
+165E .|    |    no need to authenticate [client.php:954]
+165E .|    <= true
+165E .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+165E .<= ''
+165E .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+165E .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+165E .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+165E .|    |    exit()
+165E .|    |    -
+165E .|    -
+C496 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+C496 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+C496 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+C496 .|    |    Starting a new session [client.php:680]
+C496 .|    <= ''
+C496 .<= ''
+C496 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+C496 .<= ''
+C496 .=> phpCAS::forceAuthentication() [logout.php:6]
+C496 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+C496 .|    |    => CASClient::isAuthenticated() [client.php:952]
+C496 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+C496 .|    |    |    |    user = `tobiaa' [client.php:1219]
+C496 .|    |    |    |    proxies = "" [client.php:1224]
+C496 .|    |    |    <= true
+C496 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+C496 .|    |    <= true
+C496 .|    |    no need to authenticate [client.php:954]
+C496 .|    <= true
+C496 .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+C496 .<= ''
+C496 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+C496 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+C496 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+C496 .|    |    exit()
+C496 .|    |    -
+C496 .|    -
+113E .START phpCAS-1.2.1 ****************** [CAS.php:473]
+113E .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+113E .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+113E .|    |    Starting a new session [client.php:680]
+113E .|    <= ''
+113E .<= ''
+113E .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+113E .<= ''
+113E .=> phpCAS::forceAuthentication() [logout.php:6]
+113E .|    => CASClient::forceAuthentication() [CAS.php:1016]
+113E .|    |    => CASClient::isAuthenticated() [client.php:952]
+113E .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+113E .|    |    |    |    user = `tobiaa' [client.php:1219]
+113E .|    |    |    |    proxies = "" [client.php:1224]
+113E .|    |    |    <= true
+113E .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+113E .|    |    <= true
+113E .|    |    no need to authenticate [client.php:954]
+113E .|    <= true
+113E .|    no need to authenticate (user `tobiaa' is already authenticated) [CAS.php:1032]
+113E .<= ''
+113E .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+113E .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+113E .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+113E .|    |    exit()
+113E .|    |    -
+113E .|    -
+E09C .START phpCAS-1.2.1 ****************** [CAS.php:473]
+E09C .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+E09C .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+E09C .|    |    Starting a new session [client.php:680]
+E09C .|    <= ''
+E09C .<= ''
+E09C .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+E09C .<= ''
+E09C .=> phpCAS::forceAuthentication() [logout.php:6]
+E09C .|    => CASClient::forceAuthentication() [CAS.php:1016]
+E09C .|    |    => CASClient::isAuthenticated() [client.php:952]
+E09C .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+E09C .|    |    |    |    user = `martin3' [client.php:1219]
+E09C .|    |    |    |    proxies = "" [client.php:1224]
+E09C .|    |    |    <= true
+E09C .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+E09C .|    |    <= true
+E09C .|    |    no need to authenticate [client.php:954]
+E09C .|    <= true
+E09C .|    no need to authenticate (user `martin3' is already authenticated) [CAS.php:1032]
+E09C .<= ''
+E09C .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+E09C .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+E09C .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+E09C .|    |    exit()
+E09C .|    |    -
+E09C .|    -
+86C2 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+86C2 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+86C2 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+86C2 .|    |    Starting a new session [client.php:680]
+86C2 .|    <= ''
+86C2 .<= ''
+86C2 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+86C2 .<= ''
+86C2 .=> phpCAS::forceAuthentication() [logout.php:6]
+86C2 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+86C2 .|    |    => CASClient::isAuthenticated() [client.php:952]
+86C2 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+86C2 .|    |    |    |    user = `villem' [client.php:1219]
+86C2 .|    |    |    |    proxies = "" [client.php:1224]
+86C2 .|    |    |    <= true
+86C2 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+86C2 .|    |    <= true
+86C2 .|    |    no need to authenticate [client.php:954]
+86C2 .|    <= true
+86C2 .|    no need to authenticate (user `villem' is already authenticated) [CAS.php:1032]
+86C2 .<= ''
+86C2 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+86C2 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+86C2 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+86C2 .|    |    exit()
+86C2 .|    |    -
+86C2 .|    -
+85C8 .START phpCAS-1.2.1 ****************** [CAS.php:473]
+85C8 .=> phpCAS::client('S1', 'login.rpi.edu', 443, 'cas') [logout.php:4]
+85C8 .|    => CASClient::CASClient('S1', false, 'login.rpi.edu', 443, 'cas', true) [CAS.php:374]
+85C8 .|    |    Starting a new session [client.php:680]
+85C8 .|    <= ''
+85C8 .<= ''
+85C8 .=> phpCAS::setNoCasServerValidation() [logout.php:5]
+85C8 .<= ''
+85C8 .=> phpCAS::forceAuthentication() [logout.php:6]
+85C8 .|    => CASClient::forceAuthentication() [CAS.php:1016]
+85C8 .|    |    => CASClient::isAuthenticated() [client.php:952]
+85C8 .|    |    |    => CASClient::wasPreviouslyAuthenticated() [client.php:1048]
+85C8 .|    |    |    |    user = `martin3' [client.php:1219]
+85C8 .|    |    |    |    proxies = "" [client.php:1224]
+85C8 .|    |    |    <= true
+85C8 .|    |    |    user was already authenticated, no need to look for tickets [client.php:1059]
+85C8 .|    |    <= true
+85C8 .|    |    no need to authenticate [client.php:954]
+85C8 .|    <= true
+85C8 .|    no need to authenticate (user `martin3' is already authenticated) [CAS.php:1032]
+85C8 .<= ''
+85C8 .=> phpCAS::logoutWithRedirectService('../') [logout.php:8]
+85C8 .|    => CASClient::logout(array (  'service' => '../',)) [CAS.php:1406]
+85C8 .|    |    Prepare redirect to : https://login.rpi.edu/cas/logout?service=..%2F [client.php:1275]
+85C8 .|    |    exit()
+85C8 .|    |    -
+85C8 .|    -
