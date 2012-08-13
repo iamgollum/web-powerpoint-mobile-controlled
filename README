@@ -1,9 +1,20 @@
 ----------------------------
 Author: Aaron Tobias
 School: Rensselaer Polytechnic Institute
-Year: Sophomore Year
+Year: Sophomore Year, Spring 2011
 Project: Mobile Controlled Web Powerpoint System
-Notice: JavaScript is mind-boggling ineffecient and has to be updated.
+
+
+IMPORTANT NOTICE: [August 13th 2012]
+
+1. This was my first web project and first time ever using javascript and php in a non-trivial manner.
+
+2. The JavaScript in this project is mind-boggling INEFFECIENT and has to be updated!!!!
+The goal of this project was to create something that functioned due to the
+time constraint of the project itself and the requirements that were determined.
+--------------------------------------------------------------------------------
+
+
 Description: 
 	Web 2.0 based version of Microsoft Powerpoint Abridged:
 	- xml slide framework (limited)
